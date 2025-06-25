@@ -1,0 +1,73 @@
+.item-count {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+    text-align: center;
+}
+
+.count-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.count-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+
+.count-btn:hover:not(:disabled) {
+    background-color: #c82333;
+}
+
+.count-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.count-btn:last-child {
+    background-color: #28a745;
+}
+
+.count-btn:last-child:hover:not(:disabled) {
+    background-color: #218838;
+}
+
+.count-display {
+    font-size: 1.5rem;
+    font-weight: bold;
+    min-width: 50px;
+}
+
+.add-cart-btn {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+.add-cart-btn:hover {
+    background-color: #0056b3;
+}
+
+.stock-info {
+    font-size: 0.875rem;
+    color: #6c757d;
+    margin: 0;
+}
